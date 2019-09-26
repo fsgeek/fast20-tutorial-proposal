@@ -1,0 +1,14 @@
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.toc
+report.aux
+report.log
+report.out
+report.toc
+.vscode/
+*.bbl
+*.bcf
+*.blg
+*.run.xml
