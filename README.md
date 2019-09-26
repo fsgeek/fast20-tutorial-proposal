@@ -28,6 +28,10 @@ Topics include:
 * Building, testing, validating, and deploying File System drivers
 * FUSE on Windows as an alternative
 
+## Audience
+
+This tutorial is designed for those interested in learning more about Windows kernel mode file systems development.  Participants are expected to be familiar with operating systems fundamentals and have development experience.  Upon completion, tutorial attendees will have a basic conceptual framework of how file systems fit into the Windows kernel.  Tutorial attendees will be provided with source code that builds to a working kernel mode file system driver developed specifically for this session.
+
 ## Author
 
 Tony Mason is a PhD Student at the University of British Columbia, focusing on non-hierarchical file system name spaces and persistent memory.  He has been developing file systems for the past 29 years, including on UNIX and Windows systems.  Since 1996, he has taught numerous courses in Windows kernel mode development, including device drivers, kernel debugging, file systems, and file system filter driver development.  Tony is co-author of _Windows NT Device Driver Development_ and _lex & yacc_.
