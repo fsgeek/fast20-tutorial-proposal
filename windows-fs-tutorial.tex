@@ -27,7 +27,7 @@ Additionally, the tutorial discusses the Windows kernel mode driver model, which
 
 Further, the tutorial discusses \textit{layered} file systems using ``file system filter drivers''; while considered simpler to build, the pragmatic reality is that they are often more challenging to develop than traditional file systems.
 
-In addition, the tutorial describes the Windows file system development environment including IDE, compilers, debuggers, installers, and conformance tests. Because Windows requires cryptographically signed drivers, the tutorial will describe this process. 
+In addition, the tutorial describes the Windows file system development environment including IDE, compilers, debuggers, installers, and conformance tests. It will describe the process of cryptographically signing file system drivers, which is a Windows requirement.
 
 Finally, the tutorial will briefly describe FUSE on Windows, an alternative to constructing a kernel mode file system driver, which is highly compatible with the FUSE interface on UNIX and Linux systems.
 
@@ -47,6 +47,10 @@ Topics include:
 \item Building, testing, validating, and deploying File System drivers
 \item FUSE on Windows as an alternative
 \end{itemize}
+
+\section*{Audience}
+
+This tutorial is designed for those interested in learning more about Windows kernel mode file systems development.  Participants are expected to be familiar with operating systems fundamentals and have development experience.  Upon completion, tutorial attendees will have a basic conceptual framework of how file systems fit into the Windows kernel.  Tutorial attendees will be provided with source code that builds to a working kernel mode file system driver developed specifically for this session.
 
 
 \section*{Author}
